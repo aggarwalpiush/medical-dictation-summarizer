@@ -1,0 +1,18 @@
+# Use this file to ignore specific files in Docker build context
+.git
+.gitignore
+.env
+.venv
+venv
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache
+.coverage
+htmlcov
+*.egg-info
+dist
+build
+.DS_Store
+
