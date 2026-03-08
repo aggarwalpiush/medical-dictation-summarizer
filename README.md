@@ -139,6 +139,14 @@ Now in another terminal make sure you activate the virtual environment.
      --llm-model llama3
    ```
 
+### Streamlit Web Interface
+
+To run the interactive web demo:
+
+```bash
+streamlit run src/medical_dictation/streamlit_app.py
+```
+
 ## Command-Line Options
 
 ```
