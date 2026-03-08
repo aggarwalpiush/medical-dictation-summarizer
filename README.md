@@ -144,7 +144,13 @@ Now in another terminal make sure you activate the virtual environment.
 To run the interactive web demo:
 
 ```bash
-streamlit run src/medical_dictation/streamlit_app.py
+  streamlit run src/medical_dictation/streamlit_app.py
+```
+
+Note: Please make sure streamlit is installed. If not please use the following command:
+
+```bash
+  uv pip install streamlit
 ```
 
 ## Command-Line Options
